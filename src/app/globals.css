@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-lacquer:    #c63f2b;
+    --color-lacquer-dk: #a8301f;
+    --color-stone-700:  #374151;
+    --color-stone-600:  #4b5563;
+    --color-gold:       #d4a84b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-stone-50 text-stone-800 font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-lacquer-600 hover:bg-lacquer-700 text-white
+           px-5 py-2.5 rounded-lg font-medium text-sm transition-colors;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border border-stone-300 hover:border-stone-400
+           text-stone-700 hover:text-stone-900 bg-white hover:bg-stone-50
+           px-5 py-2.5 rounded-lg font-medium text-sm transition-colors;
+  }
+
+  .section-label {
+    @apply text-lacquer-600 text-xs font-semibold uppercase tracking-widest;
+  }
+
+  .stat-number {
+    @apply font-serif text-4xl font-semibold text-lacquer-700;
+  }
+
+  .card {
+    @apply bg-white border border-stone-200 rounded-xl p-6 shadow-sm;
+  }
+
+  .prose-nomlens {
+    @apply prose prose-stone max-w-none
+           prose-headings:font-serif prose-headings:font-semibold
+           prose-a:text-lacquer-600 prose-a:no-underline hover:prose-a:underline
+           prose-code:bg-stone-100 prose-code:px-1 prose-code:py-0.5
+           prose-code:rounded prose-code:text-sm prose-code:font-mono prose-code:before:content-none prose-code:after:content-none
+           prose-pre:bg-stone-900 prose-pre:text-stone-100;
+  }
+}
+
+/* Decorative Nôm character backgrounds */
+.nom-bg {
+  user-select: none;
+  pointer-events: none;
+  font-family: "Noto Serif CJK TC", "Source Han Serif TC", "Hiragino Mincho ProN",
+               "Yu Mincho", "MS Mincho", Georgia, serif;
+}
