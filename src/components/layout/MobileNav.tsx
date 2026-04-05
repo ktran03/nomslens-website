@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "@/lib/constants";
+import { LanguageToggle } from "@/components/LanguageToggle";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -84,7 +85,10 @@ export function MobileNav() {
               ))}
             </div>
 
-            <div className="px-4 py-4 border-t border-stone-100">
+            <div className="px-4 py-4 border-t border-stone-100 flex flex-col gap-3">
+              <div className="flex justify-center">
+                <LanguageToggle />
+              </div>
               <a
                 href="#download"
                 className="btn-primary w-full justify-center"

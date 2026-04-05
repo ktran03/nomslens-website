@@ -5,7 +5,7 @@ import { MobileNav } from "./MobileNav";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-sm border-b border-stone-200">
+    <header className="sticky top-0 z-40 bg-white border-b border-stone-200">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link
