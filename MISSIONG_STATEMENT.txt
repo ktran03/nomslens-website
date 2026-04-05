@@ -1,0 +1,17 @@
+The Mission of NômLens
+NômLens exists for one fundamental and urgent purpose:
+To document, decode, and permanently preserve the entire living body of Han Nôm — Vietnam’s classical writing system — before it disappears forever.
+For nearly a thousand years, Han Nôm was the soul of Vietnamese culture. It was the script in which our ancestors recorded history, poetry, law, medicine, philosophy, and everyday life. It appears on ancient stone steles, temple inscriptions, wooden couplets, imperial manuscripts, and fragile paper documents. It is not merely a writing system — it is Vietnamese history and cultural memory made visible.
+Today, that memory is in mortal danger.
+Every year, physical inscriptions erode under rain, wind, and pollution. Manuscripts crumble. The last generation of living scholars who can fluently read Han Nôm is rapidly shrinking — perhaps no more than a hundred people in the world still possess deep, native-level mastery of the script. When they pass, and when the stones and papers finally disintegrate, a vast and irreplaceable portion of Vietnam’s heritage will be lost forever. Once a script dies, the history it carried dies with it. Lose the writing, and you lose the culture.
+NômLens was created to break this cycle of loss.
+It is not just another academic OCR tool. It is a cultural rescue infrastructure — a mobile platform designed so that anyone with a smartphone can become a participant in the preservation of Vietnam’s classical heritage. By combining on-device intelligence, intelligent human-AI collaboration, and a self-improving flywheel, NômLens turns ordinary users, students, tourists, and remaining experts into active guardians of this endangered script.
+Every photo taken at a remote temple, every character corrected by a user, every inscription recorded and verified becomes a permanent digital record. These contributions feed directly back into the system, making the model more accurate, expanding its knowledge of rare glyphs and difficult stone carvings, and building the largest open archive of Han Nôm ever created.
+This is not abstract research.
+This is a race against time.
+We are in a narrow window where the last expert readers, the surviving physical artifacts, and modern AI technology still overlap. NômLens aims to seize that window — to capture as much Han Nôm as possible while it can still be read and understood by humans, then preserve it digitally for future generations.
+The ultimate vision is simple yet profound:
+That no Han Nôm inscription should ever be lost again simply because no one could read it. That Vietnamese history written in its own classical script remains accessible forever. That future generations — whether scholars, students, or ordinary Vietnamese — can still touch the words of their ancestors.
+This is why NômLens exists.
+It is a tool, a platform, a community, and a movement — all in service of one mission:
+Preserve Han Nôm. Preserve Vietnamese history. Preserve the culture before it slips away.

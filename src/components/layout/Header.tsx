@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NAV_LINKS } from "@/lib/constants";
+import { LanguageToggle } from "@/components/LanguageToggle";
 import { MobileNav } from "./MobileNav";
 
 export function Header() {
@@ -28,8 +29,9 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Desktop CTA */}
+        {/* Desktop CTA + Toggle */}
         <div className="hidden md:flex items-center gap-3">
+          <LanguageToggle />
           <a href="#download" className="btn-primary text-xs px-4 py-2">
             Download
           </a>
