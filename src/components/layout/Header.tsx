@@ -37,8 +37,11 @@ export function Header() {
           </a>
         </div>
 
-        {/* Mobile nav (client component) */}
-        <MobileNav />
+        {/* Mobile: language toggle + hamburger */}
+        <div className="flex md:hidden items-center gap-2">
+          <LanguageToggle />
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
